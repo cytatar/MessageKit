@@ -35,7 +35,7 @@ let package = Package(
             targets: ["MessageKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/nathantannar4/InputBarAccessoryView", .upToNextMajor(from: "5.4.0"))
+        .package(url: "https://github.com/cytatar/InputBarAccessoryView", .branch("master"))
     ],
     targets: [
         .target(
