@@ -31,7 +31,6 @@ let package = Package(
     products: [
         .library(
             name: "MessageKit",
-            type: .static,
             targets: ["MessageKit"]),
     ],
     dependencies: [
