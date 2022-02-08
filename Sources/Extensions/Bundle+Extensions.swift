@@ -28,5 +28,4 @@ internal extension Bundle {
     static var messageKitAssetBundle: Bundle {
         return Bundle(for: MessagesViewController.self)
     }
-    #endif
 }
